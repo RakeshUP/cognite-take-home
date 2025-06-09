@@ -3,11 +3,11 @@
 ### Tech Stack
 
 - React
-- Vite(for build tool and development server)
+- Vite
 - TailwindCSS
 - Faker
 
-I've used TailwindCSS for styling since it has been the de-facto standard for the past few years. 
+I've used TailwindCSS for styling since it has been the de-facto standard for the past few years. Vite is used as the build tool and development server since `react.dev` suggests it.
 
 I've used Faker for generating random contacts and messages to make the app feel more real. I didn't want to just send messages. Receiving random messages after a delay added a sense of interaction.
 
