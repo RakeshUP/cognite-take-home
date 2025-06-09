@@ -3,10 +3,9 @@
 ### Tech Stack
 
 - React
-- TypeScript
-- Vite (for build tool and development server)
-- TailwindCSS (for styling)
-- Faker (for generating random data)
+- Vite(for build tool and development server)
+- TailwindCSS(for styling)
+- Faker(for generating random data)
 
 ### Features
 
@@ -21,7 +20,7 @@
 - Run `yarn`
 - Run `yarn dev`
 
-The local development server runs on port `3000`.
+The local development server runs on [http://localhost:3000](http://localhost:3000).
 
 ### Hosted version
 
