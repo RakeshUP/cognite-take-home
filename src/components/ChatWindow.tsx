@@ -112,16 +112,18 @@ const ChatWindow: React.FC<ChatWindowProps> = ({
           ))}
         </div>
       </div>
+      
+      {/* I've used a form component to handle the keyboard `enter` keypress. Otherwise I need to listen for this event on the whole window whenever input is focused */}
       <form onSubmit={handleSubmit} className="flex space-x-3 p-3">
         <input
           type="text"
           value={message}
           onChange={(e) => setMessage(e.target.value)}
-          className="flex-1 px-3 py-2 rounded-md bg-zinc-100 border border-zinc-200"
+          className="flex-1 px-3 py-2 rounded-md bg-zinc-100 border border-zinc-200 focus:outline-none focus:ring-3 focus:ring-blue-200 focus:border-blue-600"
         />
         <button
           type="submit"
-          className="px-3 py-2 min-w-20 rounded-md bg-blue-600 text-white font-medium"
+          className="cursor-pointer px-3 py-2 min-w-20 rounded-md bg-blue-600 text-white font-medium hover:bg-blue-700"
         >
           Send
         </button>

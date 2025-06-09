@@ -29,3 +29,10 @@ The local development server runs on [http://localhost:3000](http://localhost:30
 ### Hosted version
 
 The app is hosted on [https://cognite-take-home.vercel.app/](https://cognite-take-home.vercel.app/)
+
+### Improvements thought of
+
+I spent between 2-3 hours on this assignment and left out a few things that I'd like to have done:
+
+- Configure eslint and prettier - especially tailwindcss plugins
+- The types and data structures to hold the conversations are very basic and I might have missed some cases.

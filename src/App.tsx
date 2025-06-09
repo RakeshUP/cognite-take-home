@@ -10,6 +10,7 @@ function App() {
     null
   );
 
+  // Seed conversations on app load
   useEffect(() => {
     setConversations(seedConversations(10));
   }, []);
