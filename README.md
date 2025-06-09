@@ -22,3 +22,7 @@
 - Run `yarn dev`
 
 The local development server runs on port `3000`.
+
+### Hosted version
+
+The app is hosted on [https://cognite-take-home.vercel.app/](https://cognite-take-home.vercel.app/)
